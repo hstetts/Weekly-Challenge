@@ -1,0 +1,70 @@
+header#ionian-header {
+  background: url(images/hero-pizza.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+.menu-items {
+  display: block;
+  width: 400px ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.menu-items h2 {
+  position: relative;
+  width: 700px ;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #73AD21;
+}
+
+.menu-items .pie-types-header {
+  position: relative;
+  width: 120px ;
+  font-size: 25px;
+  border-bottom: 1px solid #73AD21;
+  border-bottom-width: 1px;
+}
+.menu-items ul li {
+  margin: -3px 0 0 -3px;
+}
+
+.menu-items .toppings-header {
+  position: relative;
+  width: 120px ;
+  font-size: 25px;
+  border-bottom: 1px solid #73AD21;
+  border-bottom-width: 1px;
+}
+
+.menu-items .choose-topping {
+  font-size: 15px;
+  width: 700px;
+  border-bottom: 3px solid #73AD21;
+}
+
+.pizza-photos {
+  display: inline-block;
+  padding: 30px 20px 10px 20px;
+}
+
+.size-image img {
+  height: 220px;
+  width: 320px;
+  margin-left: 2px;
+  border-radius: 8px;
+  border:1px solid #73AD21;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 7px solid #73AD21;
+}
